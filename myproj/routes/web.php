@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/market-code-list', [MyController::class, 'marketCodeList']);
 Route::get('/candle/{mode}', [MyController::class, 'getCandle']);
-
 Route::get('/socket-test', [MyController::class, 'socketPage']);
-
 Route::get('/index', [MyController::class, 'index']);
+
+Route::post('/git/log', [MyController::class, 'addGitLog']);

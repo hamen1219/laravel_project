@@ -17,6 +17,7 @@ return [
     |
     */
 
+    // log의 기본채널 
     'default' => env('LOG_CHANNEL', 'stack'),
 
     /*
