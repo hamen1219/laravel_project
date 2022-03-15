@@ -44,4 +44,12 @@ class SocketController extends Controller
     {
 
     }
+
+    /**
+     * 테스트
+     */
+    public function test()
+    {
+        return "test" ;
+    }
 }
